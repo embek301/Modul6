@@ -63,12 +63,12 @@
                     <hr>
                     <div class="row">
                         <div class="col-md-6 d-grid">
-                            <a href="{{ route('employees.index') }}" class="btn btn-outline-dark btn-lg mt-3"><i
+                            <a href="{{ route('employees.index') }}" class="btn btn-outline-danger btn-lg mt-3"><i
                                     class="bi-arrow-left-circle me-2"></i>
                                 Cancel</a>
                         </div>
                         <div class="col-md-6 d-grid">
-                            <button type="submit" class="btn btn-dark btn-lg mt-3"><i class="bi-check-circle me-2"></i>
+                            <button type="submit" class="btn btn-primary btn-lg mt-3"><i class="bi-check-circle me-2"></i>
                                 Save</button>
                         </div>
                     </div>
