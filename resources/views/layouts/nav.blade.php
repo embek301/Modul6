@@ -12,10 +12,10 @@
     @php
         $currentRouteName = Route::currentRouteName();
     @endphp
-    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container">
-            <a href="{{ route('home') }}" class="navbar-brand mb-0 h1"><i class="bi-hexagon-fill me-2"></i> Data
-                Master</a>
+            <a href="{{ route('home') }}" class="navbar-brand mb-0 h1">
+                <i class="bi-hexagon-fill me-2 text-primary"></i> Data Master</a>
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent">
                 <span class="navbar-toggler-icon"></span>
@@ -28,9 +28,8 @@
                     <li class="nav-item col-2 col-md-auto"><a href="{{ route('employees.index') }}"
                             class="nav-link @if ($currentRouteName == 'employees.index') active @endif">Employee</a></li>
                 </ul>
-                <hr class="d-md-none text-white-50">
-                <a href="{{ route('profile') }}" class="btn btn-outline-light
-my-2 ms-md-auto"><i
+                <hr class="d-md-none text-white-50  ">
+                <a href="{{ route('profile') }}" class="btn btn-outline-light my-2 ms-md-auto @if ($currentRouteName == 'profile') active @endif"><i
                         class="bi-person-circle me-1"></i> My Profile</a>
             </div>
         </div>

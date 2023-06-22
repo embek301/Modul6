@@ -13,15 +13,15 @@
         </div>
         <hr>
         <div class="table-responsive border p-3 rounded-3">
-            <table class="table table-bordered table-hover table-striped mb-0 bg-white">
+            <table class="table table-bordered table-hover  mb-0 bg-white">
                 <thead>
-                    <tr>
+                    <tr class="bg-primary text-white">
                         <th>First Name</th>
                         <th>Last Name</th>
                         <th>Email</th>
                         <th>Age</th>
                         <th>Position</th>
-                        <th></th>
+                        <th>Action</th>
                     </tr>
                 </thead>
                 <tbody>
