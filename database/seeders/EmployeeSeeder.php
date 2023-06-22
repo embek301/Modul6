@@ -34,6 +34,13 @@ class EmployeeSeeder extends Seeder
                 'age' => 23,
                 'position_id' => 3
             ],
+            [
+                'firstname' => 'Alicia',
+                'lastname' => 'Natalyn',
+                'email' => 'alicianatalyn44@gmail.com',
+                'age' => 21,
+                'position_id' => 1
+            ],
         ]);
     }
 }
